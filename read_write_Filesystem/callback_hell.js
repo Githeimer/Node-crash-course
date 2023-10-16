@@ -42,8 +42,8 @@ fileSystem.writeFile(FILEPATH, write_data , (err)=> {
 
 
 
-//exit on uncaught errors
+//exit on uncaught error
 process.on('uncaughtException',err => {
     console.error('Khai k error ho :',err);
-    process.exit(1);
+    process.exit(1); as
 })

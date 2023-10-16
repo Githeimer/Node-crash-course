@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Hi my name is KHAN!
-=======
-Hi my name is KHAN
->>>>>>> fd8a0aa15acb65814f48b2f77597ece723d1e284
+Hi my name is KHAN !

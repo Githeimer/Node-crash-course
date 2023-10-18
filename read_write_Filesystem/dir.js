@@ -20,8 +20,8 @@ if(fs.existsSync('../new'))
     })
 }
 
-// //exit on uncaught error
-// process.on('uncaughtException',err => {
-//     console.error('Khai k error ho :',err);
-//     process.exit(1);
-// })
+//exit on uncaught error
+process.on('uncaughtException',err => {
+    console.error('Khai k error ho :',err);
+    process.exit(1);
+})

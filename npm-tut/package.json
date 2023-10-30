@@ -13,8 +13,8 @@
   "keywords": [],
   "author": "himesh dulal",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "description": ""
 }

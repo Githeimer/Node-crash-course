@@ -11,6 +11,7 @@ app.get(['/', '/index', '/index.html'], (req, res) => {
 app.get('/new-page(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'views', 'new-page.html'));
 });
+
 app.get('/wao(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'views', 'wao.html'));
 });
@@ -30,4 +31,5 @@ app.get('/*', (req, res) => {
     res.status(404).sendFile(path.join(__dirname, '..', 'views', '404.html'));
 });
 
-app.listen(PORT, () => console.log('Server running on port', PORT));
+app.listen(PORT, () => {console.log('Server running on port', PORT)});
+

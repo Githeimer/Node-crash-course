@@ -1,1 +1,28 @@
 2023/11/07	08:47:03	ba33d9b6-fa70-4d96-bd62-8efc75db9bfd	Error:Not allowed by CORS, get yourself into whitelist
+2023/11/07	20:07:15	4ed6230e-b4a0-432c-ade7-c435db0fb0d0	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:07:45	f274ac89-c841-4de8-9758-d113e8997c21	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:07:49	8644f254-5af2-41fc-b35c-623a5c99f5c4	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:07:50	11824f24-fb50-49ba-a5c5-2908496238a3	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:07:50	91148201-1a48-485f-a975-9f28ba71e053	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:07:50	4cdd1d02-1280-4bbe-a320-b9af8d29a37e	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:18:41	91f07922-3b12-43bb-be63-ec43cacb099e	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:39:46	b6cb053c-0200-419d-8774-b9be96b19843	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:39:47	3c913421-2b07-4bc5-aea2-bc5a24814e7d	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:39:47	7b97af76-0a38-4433-8abc-88ed328256e0	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:40:51	6c32c20c-9bff-4c3d-b888-7fd4f3bb2dbe	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:40:53	d7641cd9-245a-4d56-b37d-b444fed1a040	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:40:59	c491c804-c88f-4e11-8868-5d8352fc871d	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/07	20:40:59	fbe5065c-2038-493c-a623-1bf6bfab85ae	Error:ENOENT: no such file or directory, stat 'D:\CODE\Learning\node-crash-course\npm-tut\views\subdir\index.html'
+2023/11/09	16:26:11	d381d8ba-2fa7-4800-87e4-bdfa914e20c3	TypeError:req.json is not a function
+2023/11/09	16:29:30	3ab8b651-bdfd-4258-a6d0-83abcc28aaac	SyntaxError:Unexpected non-whitespace character after JSON at position 43
+2023/11/09	16:29:42	e9cebd86-6b09-46c7-9ea6-93990af0ee0b	SyntaxError:Unexpected non-whitespace character after JSON at position 44
+2023/11/09	16:30:13	b1dc02b8-9b4a-45b2-90bb-3697375ff8c8	SyntaxError:Unexpected non-whitespace character after JSON at position 51
+2023/11/09	16:30:13	f9c818f5-39e3-446d-84e0-9dd1fb4c5d3b	SyntaxError:Unexpected non-whitespace character after JSON at position 51
+2023/11/09	16:30:13	0bc2d796-ec90-4a19-b28f-9dbaf6c59bb0	SyntaxError:Unexpected non-whitespace character after JSON at position 51
+2023/11/09	16:30:57	cfa5b1a3-be6b-45a1-94a8-b1070b766806	SyntaxError:Unexpected non-whitespace character after JSON at position 44
+2023/11/09	16:31:08	69b653c7-40b4-4782-b596-6178c3df61d7	SyntaxError:Expected property name or '}' in JSON at position 1
+2023/11/09	16:31:17	7c25dc01-2785-4ec3-b273-d2931c52774e	SyntaxError:Unexpected non-whitespace character after JSON at position 52
+2023/11/09	16:31:19	415d04a5-efc9-4a33-bcb6-038d004d8ac3	SyntaxError:Unexpected non-whitespace character after JSON at position 52
+2023/11/09	16:31:23	7b0c3959-78b7-40fc-88f1-a85dcba65c4b	SyntaxError:Unexpected non-whitespace character after JSON at position 52
+2023/11/09	16:31:27	5302c140-60b0-46ab-9352-6055024ac7a3	SyntaxError:Unexpected non-whitespace character after JSON at position 52
+2023/11/09	16:33:01	7e670583-807c-4694-9d3f-a5ff78870ff9	SyntaxError:Unexpected non-whitespace character after JSON at position 8

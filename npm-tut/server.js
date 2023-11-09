@@ -22,7 +22,6 @@ const corsOptions ={
             callback(new Error('Not allowed by CORS, get yourself into whitelist'));}
           },
           optionSuccessStatus:200
-
         }
 
 //cross origin resource sharing
@@ -37,21 +36,12 @@ app.use(express.json());
 //serve static files
 app.use(express.static(path.join(__dirname,'..','/public')));
 
-app.get(['/', '/index', '/index.html'], (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'views', 'index.html'));
-});
+app.use('/subdir',express.static(path.join(__dirname,'..','/public')));
 
-app.get('/new-page(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'views', 'new-page.html'));
-});
+app.use('/',require('./routes/root'));
+app.use('/subdir', require('./routes/subdir'));
+app.use('/employee', require('./routes/api/employee'));
 
-app.get('/wao(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'views', 'wao.html'));
-});
-
-app.get('/old-page(.html)?', (req, res) => {
-    res.redirect(301, './new-page.html');
-});
 
 //route handlers
 app.get('/hello(.html)?', (req, res, next) => {
@@ -60,25 +50,6 @@ app.get('/hello(.html)?', (req, res, next) => {
 }, (req, res) => {
     res.redirect('./wao.html');
 });
-
-//chaining route handlers
-
-const one = (req,res,next) => {
-    console.log("one");
-    next();
-}
-
-const two = (req,res,next)=>{
-    console.log("two");
-    next();
-}
-
-const three = (req,res) =>{
-    console.log("three");
-    res.send("FINISHED");
-}
-
-app.get('/chain(.html)?',[one,two,three]);
 
 
 app.all('*', (req, res) => {
